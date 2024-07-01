@@ -26,14 +26,14 @@ export default function Header() {
                 <Nav className="ml-auto">
                     {isEmpty(localStorage.getItem('token')) && (
                         <>
-                        <Link to="/register" className="nav-link" style={{ color: '#fff' }}>
+                        <Link to="/register" className="nav-link"  style={{ color: '#fff', marginLeft: '1240px' }}>
                             <FontAwesomeIcon icon={faUserPlus} /> Register
                         </Link>
                        </>
                     )}
                     {isEmpty(localStorage.getItem('token')) ? (
                         <>
-                        <Link className="nav-link" style={{ color: '#fff' }} to="/login">
+                        <Link className="nav-link" style={{ color: '#fff', marginRight:"15px" }} to="/login">
                             <FontAwesomeIcon icon={faHomeUser} /> Login
                         </Link>
                        </>
