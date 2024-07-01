@@ -1,0 +1,254 @@
+
+.footer {
+    position: static; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px 0;
+    z-index: 999;
+}
+
+img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1; 
+}
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid lightpink;
+}
+
+.styled-table th {
+    background-color: lightpink;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: lightgrey; /* Set background color for even rows */
+}
+
+.styled-table tbody tr:nth-child(odd) {
+    background-color: white; /* Set background color for odd rows */
+}
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #C3C3C3;
+}
+
+.styled-table th {
+    background-color: #D3D3D3;
+    border: 1px solid #C3C3C3;
+    padding: 8px;
+}
+
+.styled-table td {
+    border: 1px solid #C3C3C3;
+    padding: 8px;
+}
+
+.table-row:hover {
+    background-color: #F0FFF0;
+}
+
+.edit-button {
+    border: 1px solid #FF1493;
+    background-color: #FFFFFF;
+    color: #FF1493;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #FF1493;
+    color: #FFFFFF;
+}
+.account-details-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.account-details-container {
+    /* color: white;  */
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    border: 2px solid #ffb6c1; /* Light pink border */
+    width: 30%;
+
+}.verification-box-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .verification-box {
+    width: 200px; /* Set the width */
+    height: 200px; /* Set the height to make it a square */
+    background-color: white;
+    border: 2px solid #ff69b4; /* Dark pink border */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  .verification-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .dataTable-header {
+    background-color: lightpink;
+}
+.shop-details {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  .react-data-table-component .rdt_TableHeadRow {
+    background-color: lightpink;
+}
+/* index.css */
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .styled-table th {
+    background-color: lightpink; 
+    color: white;
+  }
+  
+  .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .styled-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+
+  .image-container {
+    text-align: center;
+}
+.image-container img {
+    display: block;
+    margin: 0 auto;
+}.gold-price-container {
+  position: relative;
+}
+.moving-strip {
+  position: static;
+  top: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #90EE90;
+  padding-bottom: 0;
+}
+
+
+@import '~@fortawesome/fontawesome-free/css/all.css';
+.card {
+  margin-bottom: 1rem;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.col-md-4 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.custom-table {
+  border: 2px solid darkpink; /* Border color */
+}
+
+.custom-table th,
+.custom-table td {
+  border: 2px solid darkpink; /* Border color */
+}
+.border-darkpink {
+  border-color: #FFC0CB !important;
+}
+.custom-card {
+  border: 2px solid darkpink;
+}
+.moving-strip {
+  position: static;
+  width: 400%;
+  background-color: #90EE90;
+  overflow: hidden;
+  padding: 30px 0;
+}
+.moving-strip-container {
+  overflow-x: hidden; /* Hide horizontal overflow */
+  width: 150%; /* Ensure it takes full width */
+}
+
+
+
+@keyframes moveStrip {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%); /* Move strip to the left by its width */
+  }
+}
+.moving-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: moveText 25s linear infinite
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.custom-dropdown .dropdown-menu {
+  background-color: maroon !important;
+}
+
+.custom-dropdown .dropdown-item {
+  color: white !important;
+}
+
+.custom-dropdown .dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+}
